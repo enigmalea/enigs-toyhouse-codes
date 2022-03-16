@@ -1,0 +1,17 @@
+/* Hides Original Profile Content */
+.profile-content-title h2 {
+    display: none;
+}
+
+/* Adds Relationships Label */
+.profile-content-title::before {
+    font: var(--fa-font-solid);
+    content: '\f004⠀Relationships';
+    font-size: 1.6rem !important;
+    letter-spacing: .1rem;
+}
+
+/* Hides Recent Images Section */
+.profile-gallery-section {
+    display: none !important;
+  }
